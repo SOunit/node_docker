@@ -1,5 +1,5 @@
 # select base image
-FROM alpine
+FROM node:alpine
 # solve dependencies
 RUN npm install
 # start command
